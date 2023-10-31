@@ -614,6 +614,7 @@ li .fa-solid.fa-circle-check {
     padding: 20px;
     visibility: hidden;
     opacity: 0;
+    transition: all .5s ease-in-out;
 
   }
   .navbar-menu.open{
