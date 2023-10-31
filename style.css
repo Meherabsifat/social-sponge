@@ -608,11 +608,12 @@ li .fa-solid.fa-circle-check {
 @media (max-width:810px){
   #nav-menu-bar{
     display: block;
+    cursor: pointer;
   }
   .navbar-menu{
     position: absolute;
     top: 100%;
-    right: -100%;
+    right: 100%;
     width: 270px;
     height: 30vh;
     background: #67A3D3;
@@ -620,8 +621,18 @@ li .fa-solid.fa-circle-check {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    visibility: hidden;
+    opacity: 0;
 
   }
+  .navbar-menu.open{
+    right: 0;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    visibility: visible;
+  } 
+  
+ 
   .navbar-menu li {
     background: #003c68;
     text-align: center;
@@ -631,9 +642,6 @@ li .fa-solid.fa-circle-check {
     color: #fff;
   }
 
-  .navbar-menu.open{
-    right: 0;
-  }
 
   #hero {
     padding: 20px 0;
