@@ -596,15 +596,6 @@ li .fa-solid.fa-circle-check {
 
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width:810px){
   #nav-menu-bar{
     display: block;
@@ -641,6 +632,7 @@ li .fa-solid.fa-circle-check {
   .navbar-menu li a {
     color: #fff;
   }
+
 
 
   #hero {
@@ -714,6 +706,9 @@ li .fa-solid.fa-circle-check {
   .social-icon ul li a {
     padding: 10px 30px;
   }
+  .grow-button {
+    width: 100%;
+  }
  
  
 }
@@ -773,42 +768,26 @@ li .fa-solid.fa-circle-check {
   .nav-btn a:nth-child(2) {
     display: none;
   }
+  .grow-button a {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .grid-inner {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
 }
 
+@media (max-width:412px){
+  .work-button a {
+    font-size: 10px;
+  }
+}
+
+
 /* ===MEDIA QUARY=== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* =====  PADDING AND MARGIN====*/
 
